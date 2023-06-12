@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'tutorial_animation/tutorial_coach_mark.dart';
+import 'tutorial_animation/tutorial_marker.dart';
 
 void main() => runApp(const MyApp());
 
@@ -30,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class MyHomePageState extends State<MyHomePage> {
-  late TutorialCoachMark tutorialCoachMark;
+  late TutorialMarker tutorialCoachMark;
 
   GlobalKey keyButton = GlobalKey();
   GlobalKey keyButton1 = GlobalKey();
@@ -225,7 +225,7 @@ class MyHomePageState extends State<MyHomePage> {
   }
 
   void createTutorial() {
-    tutorialCoachMark = TutorialCoachMark(
+    tutorialCoachMark = TutorialMarker(
       targets: _createTargets(),
       colorShadow: Colors.red,
       textSkip: "SKIP",

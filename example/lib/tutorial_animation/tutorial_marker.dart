@@ -11,7 +11,7 @@ export 'target/target_focus.dart';
 export 'target/target_position.dart';
 export 'util.dart';
 
-class TutorialCoachMark {
+class TutorialMarker {
   final List<TargetFocus> targets;
   final FutureOr<void> Function(TargetFocus)? onClickTarget;
   final FutureOr<void> Function(TargetFocus, TapDownDetails)?
@@ -36,7 +36,7 @@ class TutorialCoachMark {
 
   OverlayEntry? _overlayEntry;
 
-  TutorialCoachMark({
+  TutorialMarker({
     required this.targets,
     this.colorShadow = Colors.black,
     this.onClickTarget,
