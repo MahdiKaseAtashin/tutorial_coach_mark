@@ -1,7 +1,8 @@
 // ignore_for_file: avoid_print
 
 import 'package:flutter/material.dart';
-import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
+
+import 'tutorial_animation/tutorial_coach_mark.dart';
 
 void main() => runApp(const MyApp());
 
@@ -261,10 +262,10 @@ class MyHomePageState extends State<MyHomePage> {
           TargetContent(
             align: ContentAlign.top,
             builder: (context, controller) {
-              return Column(
+              return const Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const <Widget>[
+                children: <Widget>[
                   Text(
                     "Titulo lorem ipsum",
                     style: TextStyle(
@@ -288,10 +289,10 @@ class MyHomePageState extends State<MyHomePage> {
           TargetContent(
             align: ContentAlign.top,
             builder: (context, controller) {
-              return Column(
+              return const Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const <Widget>[
+                children: <Widget>[
                   Text(
                     "Titulo lorem ipsum",
                     style: TextStyle(
@@ -315,10 +316,10 @@ class MyHomePageState extends State<MyHomePage> {
           TargetContent(
             align: ContentAlign.top,
             builder: (context, controller) {
-              return Column(
+              return const Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const <Widget>[
+                children: <Widget>[
                   Text(
                     "Titulo lorem ipsum",
                     style: TextStyle(
@@ -340,10 +341,10 @@ class MyHomePageState extends State<MyHomePage> {
           TargetContent(
             align: ContentAlign.bottom,
             builder: (context, controller) {
-              return Column(
+              return const Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const <Widget>[
+                children: <Widget>[
                   Text(
                     "Titulo lorem ipsum",
                     style: TextStyle(
@@ -415,10 +416,10 @@ class MyHomePageState extends State<MyHomePage> {
         contents: [
           TargetContent(
             align: ContentAlign.left,
-            child: Column(
+            child: const Column(
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const <Widget>[
+              children: <Widget>[
                 Text(
                   "Multiples content",
                   style: TextStyle(
@@ -438,10 +439,10 @@ class MyHomePageState extends State<MyHomePage> {
           ),
           TargetContent(
               align: ContentAlign.top,
-              child: Column(
+              child: const Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const <Widget>[
+                children: <Widget>[
                   Text(
                     "Multiples content",
                     style: TextStyle(
@@ -468,10 +469,10 @@ class MyHomePageState extends State<MyHomePage> {
       contents: [
         TargetContent(
             align: ContentAlign.right,
-            child: Column(
+            child: const Column(
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const <Widget>[
+              children: <Widget>[
                 Text(
                   "Title lorem ipsum",
                   style: TextStyle(
@@ -539,9 +540,9 @@ class MyHomePageState extends State<MyHomePage> {
         contents: [
           TargetContent(
             align: ContentAlign.top,
-            child: Column(
+            child: const Column(
               mainAxisSize: MainAxisSize.min,
-              children: const <Widget>[
+              children: <Widget>[
                 Padding(
                   padding: EdgeInsets.only(bottom: 20.0),
                   child: Text(
@@ -561,9 +562,9 @@ class MyHomePageState extends State<MyHomePage> {
           ),
           TargetContent(
               align: ContentAlign.bottom,
-              child: Column(
+              child: const Column(
                 mainAxisSize: MainAxisSize.min,
-                children: const <Widget>[
+                children: <Widget>[
                   Padding(
                     padding: EdgeInsets.only(bottom: 20.0),
                     child: Text(
