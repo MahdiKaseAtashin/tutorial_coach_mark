@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import '../tutorial_coach_mark.dart';
+import '../tutorial_marker.dart';
 
 class CustomTargetContentPosition {
   CustomTargetContentPosition({
