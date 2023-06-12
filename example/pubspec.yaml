@@ -21,9 +21,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  tutorial_coach_mark:
-    path: ".."
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
